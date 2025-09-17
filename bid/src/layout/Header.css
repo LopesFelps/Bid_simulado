@@ -1,0 +1,58 @@
+.main-header {
+  background-color: var(--white);
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  height: 80px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: var(--dark-gray);
+}
+
+.logo-img {
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.logo-container h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--cbf-green);
+}
+
+.nav-link {
+  margin-left: 1.5rem;
+  text-decoration: none;
+  color: var(--dark-gray);
+  font-weight: 500;
+  padding-bottom: 5px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.3s, border-color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--cbf-green);
+}
+
+.nav-link.active {
+  color: var(--cbf-green);
+  border-bottom-color: var(--cbf-yellow);
+}
+
+/* Responsividade do Header */
+@media (max-width: 768px) {
+  .main-header {
+    flex-direction: column;
+    height: auto;
+    padding: 1rem;
+  }
+  .nav-link {
+    margin: 0.5rem;
+  }
+}

@@ -1,0 +1,20 @@
+.submit-button {
+  background-color: var(--cbf-green);
+  color: var(--white);
+  padding: 0.9rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s, transform 0.2s;
+  width: 100%;
+}
+
+.submit-button:hover {
+  background-color: #007a2e; /* Um verde um pouco mais escuro */
+  transform: translateY(-2px);
+}

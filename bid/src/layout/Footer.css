@@ -1,0 +1,11 @@
+.main-footer {
+  background-color: var(--dark-gray);
+  color: var(--white);
+  text-align: center;
+  padding: 1.5rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+

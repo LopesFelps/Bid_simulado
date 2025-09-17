@@ -1,0 +1,43 @@
+.player-card {
+  background-color: var(--white);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-header {
+  background-color: var(--cbf-blue);
+  color: var(--white);
+  padding: 1rem;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.card-body {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.card-body p {
+  margin: 0 0 0.75rem 0;
+  color: #666;
+}
+
+.card-body p:last-child {
+  margin-bottom: 0;
+}
+
+.card-body strong {
+  color: var(--dark-gray);
+}

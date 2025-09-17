@@ -1,0 +1,42 @@
+.home-page {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+.home-page h2 {
+  font-size: 2.5rem;
+  color: var(--cbf-blue);
+}
+
+.home-page p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 3rem;
+}
+
+.home-actions .action-button {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: all 0.3s;
+}
+
+.action-button {
+  background-color: #eee;
+  color: var(--dark-gray);
+  border: 1px solid #ccc;
+}
+.action-button:hover {
+  background-color: #ddd;
+}
+
+.action-button.primary {
+  background-color: var(--cbf-yellow);
+  color: var(--cbf-green);
+  border: 1px solid var(--cbf-yellow);
+}
+.action-button.primary:hover {
+  background-color: #e6c600;
+}
